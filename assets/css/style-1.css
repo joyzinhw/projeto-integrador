@@ -15,6 +15,45 @@ body {
 	font-family: arial, helvetica, sans-serif; 
 	overflow: hidden; 
 }
+header { /* menu */
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.menu-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;  
+}
+
+.menu-link a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.menu-link a:hover {
+    color:  #041333;
+    transition: 0.3s all;
+}
+
+.logo i { /* logo */
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
 
 .area-login {
 	display: flex;
@@ -83,3 +122,9 @@ outline: 1px solid #6c63ff;
 	text-decoration: none;
 	margin-left: 10px;
   }
+  @media screen and (max-width:200px){ /* resposividade do menu */
+    .menu-link {
+        display: none;
+    }
+   
+}
