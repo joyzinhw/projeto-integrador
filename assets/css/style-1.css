@@ -33,7 +33,7 @@ header { /* menu */
 
 .menu-link a {
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .menu-link a:hover {
@@ -122,6 +122,8 @@ outline: 1px solid #6c63ff;
 	text-decoration: none;
 	margin-left: 10px;
   }
+
+  
   @media screen and (max-width:200px){ /* resposividade do menu */
     .menu-link {
         display: none;
