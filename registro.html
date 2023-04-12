@@ -19,7 +19,7 @@
     <header>
 
         <div class="logo"> <!--logo-->
-            <a href="index-1.html" aria-label="link do icone de inicio">
+            <a href="login.html" aria-label="link do icone de inicio">
             <i class="fa-sharp fa-solid fa-house"></i></a> 
         </div>
        
@@ -40,16 +40,20 @@
            <!--<img src="#">--> 
         </div> 
         <form>
+            <label for="Nome Completo"></label>
+            <input id="name" type="text" name="name" placeholder="Digite o seu nome completo" required maxlength="40" autofocus>
+            
             <label for="email"></label>
             <input id="email" type="email" name="email" placeholder="Digite o seu e-mail" required maxlength="40" autofocus>
             
             <label for="password"></label>
             <input id="password" type="password" name="password" placeholder="Digite a sua senha" required maxlength="8" minlength="8" autofocus>
-            <input type="submit" value="Entrar">
+            
+            <input type="submit" value="Registrar">
         </form>      <!--forms-->
         <br>
-        <p>Ainda não possui uma conta?</p> <!--link para conta-->
-        <p><a href="index.html">Crie uma conta!</a></p>
+        <p>Já possui uma conta?</p> <!--link para conta-->
+        <p><a href="login.html">Entre</a></p>
     </div>
     </section>    
 </body><!-- corpo-->

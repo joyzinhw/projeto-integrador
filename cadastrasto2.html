@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="author" content="@joyzinhw">
+    <meta name="description" content="codpet, um site para cadrastro de animais">
+    <meta name="keywords" content="sites, web, animais, cadrastro, adoção, localizacao">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css"> <!--import do css-->
+    <title>cadrastro</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/teste.svg" alt="teste.png">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Endereço</h1>
+                    </div>
+                </div>
+
+
+
+
+                <div class="input-group"> <!--inputs-->
+                    <div class="input-box">
+                        <label for="cep">CEP</label>
+                            <input id="cep" name="cep" placeholder="Digite o seu cep" required pattern="\d{5}-\d{3}"/>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="rua">Nome da rua</label>
+                            <input id="rua" type="text" name="rua" placeholder="Digite o nome da sua rua" required maxlength="20" minlength="3"  autofocus>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="numero">Numero da casa</label>
+                                <input name="numero" type="text" id="numero" placeholder="Digite o numero da casa">
+                            </div>
+    
+                        <div class="input-box">
+                            <label for="bairro">Nome do bairro</label>
+                            <input id="bairro" type="text" name="bairro" placeholder="Digite o nome do seu bairro" required maxlength="20" minlength="3"  autofocus>
+                        </div>
+                       
+                        <div class="input-box">
+                            <label for="cidade">Cidade</label>
+                            <input id="cidade" type="text" name="cidade" placeholder="Digite o nome da sua cidade" required maxlength="20" minlength="3"  autofocus>
+                        </div>
+                        
+                        <div class="input-box">
+                            <label for="estado">Estado</label>
+                            <input id="estado" type="text" name="estado" placeholder="Digite o nome do seu estado" required maxlength="20" minlength="3"  autofocus>
+                        </div>
+                       
+
+                </div>
+
+                
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
