@@ -70,8 +70,8 @@ header { /* menu */
 	background: #fff;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
 	border-radius: 10px;
-	width:355px;
-	height:320px;
+	width:455px;
+	height:420px;
 	padding: 35px;
   }
   .login form{
@@ -79,18 +79,26 @@ header { /* menu */
 	width: 100%;
 	flex-direction: column;
   }
-  
+  .img{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
   .login input{
 	margin-top:10px;
 	background-color: #fff;
 	padding-left: 10px;
 	color: #cbd0f7;
-	border: none;
+	border:  solid #3065ac 1px;
 	height:45px;
 	outline: none;
 	border-radius: 8px;
 	cursor: pointer;
 	box-shadow: 1px 1px 6px #0000001c;
+  
+
   }
 
 .login input:focus-visible {
@@ -114,6 +122,21 @@ outline: 1px solid #6c63ff;
 	font-weight: bold;
 	cursor: pointer;
   }
+
+  .Check p,label {
+    font: 1rem 'Fira Sans', sans-serif;
+    text-align: center;
+    
+    align-items: center;
+}
+
+.Check input {
+    margin: 0.4rem;
+   justify-items: center;
+    align-items: center;
+}
+  
+
   p{
 	color: #53566e;
   font-size: 15px;
