@@ -126,3 +126,10 @@ header { /* menu */
     transition: 0.1s;
     transition-delay: 0.1s;
 }
+
+@media screen and (max-width:200px){ /* resposividade do menu */
+    .menu-link {
+        display: none;
+    }
+   
+}
