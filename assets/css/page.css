@@ -15,7 +15,7 @@
 }
 
 body {
-	background: #74b0ff;
+	background: #4E77AD;
 	font-family: arial, helvetica, sans-serif; 
 	
 }
@@ -32,7 +32,7 @@ header { /* menu */
 .menu-link {
     display: flex;
     gap: 3rem;
-    font-weight: 300;
+    font-weight: 600;
     cursor: pointer;  
 }
 
@@ -83,13 +83,6 @@ header { /* menu */
     transform: translate(-50%, -50%);
 }
 
-.rodape h3 {
-    color: #ffffff;
-    font-family:  'Inter', sans-serif;
-    font-size: 0;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
 
 .rodape a {
     display: inline-flex;

@@ -10,7 +10,7 @@
 }
 
 body {
-	background: #74b0ff;
+	background: #4E77AD;
 	font-family: arial, helvetica, sans-serif; 
 	
 }
@@ -117,8 +117,8 @@ header { /* menu */
 	margin-top:10px;
 	background-color: #fff;
 	padding-left: 10px;
-	color: #cbd0f7;
-	border:  solid #3065ac 1px;
+	color: #ffffff;
+	border:  none;
 	height:30px;
 	outline: none;
 	border-radius: 8px;
@@ -127,7 +127,7 @@ header { /* menu */
 }
 
 .login input:focus-visible {
-outline: 1px solid #6c63ff;
+outline: 1px solid #5950ff;
 }
 
 .login img{
@@ -135,13 +135,13 @@ outline: 1px solid #6c63ff;
 	height: auto;
   }
   input::placeholder{
-	color: #53566e;
-	font-size: 14px;
+	color: #0e0f0f;
+	font-size: 16px;
    }
   
   form [type ="submit"]{
 	display: block;
-	background-color: #3065ac;
+	background-color: #1457ae;
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -162,9 +162,10 @@ p{
 }
 
 a{
-	color: #5568fe;
+	color: #121953;
 	text-decoration: none;
 	margin-left: 10px;
+    font-weight: 700;
 }
 
   
@@ -176,13 +177,6 @@ a{
     transform: translate(-50%, -50%);
 }
 
-.rodape h3 {
-    color: #ffffff;
-    font-family:  'Inter', sans-serif;
-    font-size: 0;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
 
 .rodape a {
     display: inline-flex;
