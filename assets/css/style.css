@@ -98,6 +98,22 @@ form section h1{
 	box-shadow: 1px 1px 6px #0000001c;
 }
 
+form [type ="submit"]{
+	display: flex;
+    color: #fff;
+	background-color: #1457ae;
+	font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width: 120px;
+    text-transform: uppercase;
+	font-weight: 500;
+    border-radius: 10px;
+	cursor: pointer;
+}
+
 .inp input:focus-visible {
 outline: 1px solid #04004b;
 }
@@ -105,27 +121,6 @@ outline: 1px solid #04004b;
     font-size: .9em;
 }
 
-.gender-group {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.62rem;
-    padding: 0 .5rem;
-}
-
-.gender-input {
-    display: flex;
-    align-items: center;
-}
-
-.gender-input input {
-    margin-right: 0.35rem;
-}
-
-.gender-input label {
-    font-size: 0.81rem;
-    font-weight: 600;
-    color: #000000c0;
-}
 
 .btns{
     width: 100%;
@@ -158,6 +153,15 @@ button:hover{
 
 
 
+.rodape {
+    position: fixed;
+    display: inline-flex;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 .rodape a {
     display: inline-flex;
     width: 50px;
@@ -184,14 +188,6 @@ button:hover{
 
 .rodape a:hover > i {
     transform: scale(0) rotate(360deg);
-}
-
-.rodape :hover h3 {
-    font-size: 0.7em !important;
-    text-align: center;
-    margin-right: 18px;
-    transition: 0.1s;
-    transition-delay: 0.1s;
 }
 
 @media (max-width: 1000px){

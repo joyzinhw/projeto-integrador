@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css"> <!--import do css-->
-    <title>cadrastro</title>
+    <title>codpet</title>
     
 </head>
 
@@ -33,16 +33,25 @@
 
         
             <div class="inp">
-                <label for="email">E-mail</label>
-                <input id="email" type="email" name="email" placeholder="Digite o seu e-mail" required maxlength="60" autofocus>
+                <label for="number">Celular</label>
+                    <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx - nº do responsável" required maxlength="11" autofocus>
             </div>
             
             <div class="inp">
                 <label for="number">Idade</label>
-                <input type="number" name="number" id="date">
+                <input type="number" name="number" id="date" placeholder="Digite a idade" required autofocus>
             </div>
             
-           
+            <div class="inp">
+                <label for="text">Descrição</label>
+                <input type="text" name="text" id="text"  placeholder="Faça uma descrição sobre o seu pet" required autofocus>
+            </div>
+
+            <div class="inp">
+                <label for="file">Foto</label>
+                <input type="file" name="file" id="file"  placeholder="Foto do seu pet" required autofocus>
+            </div>
+
         </div>
         </section>
 
@@ -63,5 +72,6 @@
           
         </div>
        </footer>
+       
 </body>
 </html>
