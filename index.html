@@ -16,25 +16,24 @@
 </head>
 <body>
 
-    <header>
+    <nav>
+        <div class="logo">
 
-        <div class="logo"> <!--logo-->
-            <a href="index.html" aria-label="link do icone de inicio">
-            <i class="fa-sharp fa-solid fa-house"></i></a> 
+			<a href="index.html" aria-label="link do icone de inicio">
+				<i class="fa-sharp fa-solid fa-house"></i></a>
+		</div>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
         </div>
-       
 
-        <div class="menu-link"> <!--menu-->
-
-            <a href="#">ADOÇÃO</a>
-            <a href="#">PERDIDOS</a>
-            <a href="ajuda.html">AJUDA</a>
-            <a href="sobre.html">SOBRE</a>
-            
-        
-        </div> 
-        
-     </header>
+        <ul>
+            <li> <a href=""> ADOÇÃO</a> </li>
+            <li> <a href="perfil.html"> PERDIDOS</a> </li>
+            <li> <a href="ajuda.html"> AJUDA</a> </li>
+            <li> <a href="sobre.html"> SOBRE</a> </li>
+        </ul>
+    </nav>
      
     <section class="area-login">
     <div class="login"> <!-- div principal-->
@@ -56,7 +55,7 @@
             <input id="password" type="password" name="password" placeholder="Digite a sua senha" required maxlength="8" minlength="8" autofocus>
 
 
-            <input type="submit" value="Entrar" onclick="logar(); return false">
+            <input type="submit" value="Entrar">
 
         </form>
     
@@ -73,18 +72,14 @@
     
     <footer>
         <div class="rodape">
-              
-        <a href="https://github.com/joyzinhw" aria-label="link do icone">
-        <i class="fab fa-github"></i></a>
-        
+                      
         <a href="#" aria-label="link do icone">
         <i class="fab fa-instagram"></i></a>
           
         </div>
        </footer>
 
-      <script src="assets/js/style.js"></script>
-
+      <script src="assets/js/main.js"></script>
 </body><!-- corpo-->
 
 </html>
