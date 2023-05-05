@@ -8,3 +8,19 @@ function menuShow() {
         ul.classList.add('open');
     }
 }
+
+const panels = document.querySelectorAll('.faq_panel');
+
+const panellabels = document.querySelectorAll('.faq_label');
+
+panels.forEach((panel, index) => { let isExpanded = panel.getAttribute('aria-expanded') === 'true';
+
+
+    panellabels[index].addEventListener('click', () => { console.log('clicked');
+
+isExpanded=!isExpanded;
+
+panel.setAttribute('aria-expanded', isExpanded);
+
+});
+});

@@ -137,7 +137,6 @@ nav ul li a{
 }
 nav ul li a.active,
 nav ul li a:hover{
-    border: 0.8px solid #ffffff;
     background:  #3b5b86;
 }
 
@@ -146,6 +145,42 @@ nav .menu-btn i{
     cursor: pointer;
     display: none;
 }
+
+.container {
+    max-width: 980px; 
+    margin-inline: auto;
+    padding: 100px 15px;
+    
+}
+   .faq_header-title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #FFF;
+    margin-bottom: 30px;
+    
+    }
+    .faq_panel {
+    padding: 7px 21px;
+    margin-bottom: 24px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    }
+    
+    .faq_label {
+    font-size: 18px;
+    font-weight: 600;
+    padding-block: 7px; 
+    color: #f4f5f6;
+    cursor: pointer;
+    }
+
+    .faq_panel-answer {
+    color: #ffffff;
+     padding-top: 5px; 
+     padding-bottom: 7px;
+    font-size: 16px;
+    }
+
 @media (max-width: 920px) {
     nav .menu-btn i{
         display: block;
