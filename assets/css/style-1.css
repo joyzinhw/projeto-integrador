@@ -12,6 +12,7 @@
 body {
 	background: #4E77AD;
 	font-family: arial, helvetica, sans-serif; 
+	
 }
 
 header { /* menu */
@@ -103,7 +104,7 @@ header { /* menu */
     height: 100%;
 }
 
-.text h1{
+.text h1 {
     display: block;
     align-items: end;
     color: #21344d;
@@ -112,11 +113,16 @@ header { /* menu */
     cursor: pointer;
 }
 
+h1.texto-h1 {
+    font-size: 40px;
+
+}
+
 .login input{
 	margin-top:10px;
 	background-color: #fff;
 	padding-left: 10px;
-	color: #ffffff;
+	color: #000000;
 	border: none ;
 	height:30px;
 	outline: none;
@@ -130,9 +136,9 @@ outline: 1px solid #5950ff;
 }
 
 .login img{
-	width: 65px;
+	width: 105px;
 	height: auto;
-  }
+}
   input::placeholder{
 	color: #0e0f0f;
 	font-size: 16px;
