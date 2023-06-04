@@ -116,3 +116,44 @@
 #checkbox:checked ~ .body .side-bar a span{
 	display: none;
 }
+
+#profile {
+	max-width: 400px;
+	margin: 0 auto;
+  }
+  
+  label {
+	margin-top: 10px;
+  }
+  
+  input, textarea {
+	width: 100%;
+	margin-top: 5px;
+  }
+  
+  #editButton {
+	margin-top: 10px;
+  }
+  
+
+  input[type='file'] {
+    display: none;
+}
+
+.max-width {
+    max-width: 100px;
+    width: 60%;
+}
+
+#imgPhoto {
+    margin-top: 10%;
+    width: 150px;
+    height: 150px;
+    padding:2px;
+    
+	border: 1px solid #706f6f;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background .3s;
+}
+

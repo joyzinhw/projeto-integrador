@@ -57,7 +57,7 @@
 				</li>
 				
 				<li>
-					<a href="#">
+					<a href="/pages/perfil.html">
 						<i class="fa fa-cog" aria-hidden="true"></i>
 						<span>Editar Perfil</span>
 					</a>
@@ -71,9 +71,43 @@
 			</ul>
 		</nav>
 		<section class="section-1">
-			
+
+			<div class="max-width">
+				<div class="imageContainer">
+					<img src="camera.png" alt="Selecione uma imagem" id="imgPhoto">
+				</div>
+			</div>
+		
+			<input type="file" id="flImage" name="fImage" accept="image/*">
+		
+			  
+			<div id="profile">
+
+				
+				<div id="profileInfo">
+				  <p><strong>Nome:</strong> <span id="name"></span></p>
+				  <p><strong>E-mail:</strong> <span id="email"></span></p>
+				  <p><strong>Biografia:</strong> <span id="bio"></span></p>
+				  <button id="editButton">Editar</button>
+				</div>
+				<div id="profileForm" style="display: none;">
+				  <label for="name">Nome:</label>
+				  <input type="text" id="nameInput" required>
+				  
+				  <label for="email">E-mail:</label>
+				  <input type="email" id="emailInput" required>
+				  
+				  <label for="bio">Biografia:</label>
+				  <textarea id="bioInput"></textarea>
+				  
+				  <button id="saveButton">Salvar</button>
+				</div>
+
+			  </div>
+			  
 		</section>
 	</div>
+	<script src="/assets/js/main.js"></script>
 
 </body>
 </html>
