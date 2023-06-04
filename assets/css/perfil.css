@@ -141,14 +141,14 @@
 }
 
 .max-width {
-    max-width: 100px;
-    width: 60%;
+    max-width: 80px;
+    width: 50%;
 }
 
 #imgPhoto {
     margin-top: 10%;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     padding:2px;
     
 	border: 1px solid #706f6f;
