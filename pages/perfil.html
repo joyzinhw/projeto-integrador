@@ -28,42 +28,55 @@
 		<nav class="side-bar">
 			<div class="user-p">
 				
-					<a href="#">
-						<i class="fa-solid fa-user" aria-hidden="true"></i>
+					<a href="#" aria-label="icone do user">
+						<i class="fa-solid fa-user" style="color: #ffffff;" aria-hidden="true"></i>
 					</a>
 				
-				<h4>CONTA</h4>
+				<h1>CONTA</h1>
 			</div>
 			<ul>
-		
 				<li>
-					<a href="/pages/contatos.html">
+					<a href="#" aria-label="icone">
+						<i class="fa-solid fa-paw" aria-hidden="true"></i>
+						<span>Adoção</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" aria-label="icone">
+						<i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+						<span>Perdidos</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="/pages/contatos.html" aria-label="icone">
 						<i class="fa-solid fa-envelope" aria-hidden="true"></i>
 						<span>Contato</span>
 					</a>
 				</li>
 				<li>
-					<a href="/pages/sobre.html">
+					<a href="/pages/sobre.html" aria-label="icone">
 						<i class="fa fa-info-circle" aria-hidden="true"></i>
 						<span>Sobre</span>
 					</a>
 				</li>
 				
 				<li>
-					<a href="/pages/ajuda.html">
+					<a href="/pages/ajuda.html" aria-label="icone">
 						<i class="fa-solid fa-circle-question" aria-hidden="true"></i>
 						<span>Ajuda</span>
 					</a>
 				</li>
 				
 				<li>
-					<a href="/pages/perfil.html">
+					<a href="/pages/perfil.html" aria-label="icone">
 						<i class="fa fa-cog" aria-hidden="true"></i>
-						<span>Editar Perfil</span>
+						<span>Editar</span>
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="#" aria-label="icone">
 						<i class="fa fa-power-off" aria-hidden="true"></i>
 						<span>Sair</span>
 					</a>
@@ -71,10 +84,14 @@
 			</ul>
 		</nav>
 		<section class="section-1">
+			<div class="area-quadrado">
 
+         <div class="quadrado">
+
+		 
 			<div class="max-width">
 				<div class="imageContainer">
-					<img src="camera.png" alt="Selecione uma imagem" id="imgPhoto">
+					<img src="#" alt="Selecione uma imagem" id="imgPhoto">
 				</div>
 			</div>
 		
@@ -85,9 +102,18 @@
 
 				
 				<div id="profileInfo">
-				  <p><strong>Nome:</strong> <span id="name"></span></p>
-				  <p><strong>E-mail:</strong> <span id="email"></span></p>
-				  <p><strong>Biografia:</strong> <span id="bio"></span></p>
+				  <p><strong>Nome:</strong> 
+					<br>
+				  <span id="name"></span></p>
+
+				  <p><strong>E-mail:</strong> 
+					<br>
+				 <span id="email"></span></p>
+
+				  <p><strong>Biografia:</strong> 
+					<br>
+				  <span id="bio"></span></p>
+				  
 				  <button id="editButton">Editar</button>
 				</div>
 				<div id="profileForm" style="display: none;">
@@ -104,7 +130,8 @@
 				</div>
 
 			  </div>
-			  
+			  </div>
+			</div>
 		</section>
 	</div>
 	<script src="/assets/js/main.js"></script>
