@@ -44,6 +44,7 @@ self.addEventListener('fetch', (event) => {
         const networkResp = await fetch(event.request);
         return networkResp;
       } catch (error) {
+        console.log("erro")
 
         const cache = await caches.open(CACHE);
         const cachedResp = await cache.match(offlineFallbackPage);
