@@ -1,12 +1,12 @@
 {
   "background_color": "#4e77ad",
-  "description": "codpet, um site para cadrastro de animais",
+  "description": "Codpet, cuidaod",
   "dir": "ltr",
   "display": "standalone",
-  "name": "codpet",
+  "name": "CodPet",
   "orientation": "any",
   "scope": "/",
-  "short_name": "codpet",
+  "short_name": "CodPet",
   "start_url": "/index.html",
   "theme_color": "#4e77ad",
   "categories": [
