@@ -91,3 +91,4 @@ file.addEventListener('change', () => {
 
     reader.readAsDataURL(file.files[0]);
 });
+
