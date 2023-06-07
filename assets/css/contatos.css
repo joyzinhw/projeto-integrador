@@ -7,12 +7,16 @@
     font-family: 'Inter', sans-serif;
 }
 
-
 body,
 input,
 textarea {
 	font-family: arial, helvetica, sans-serif; 
 }
+body {
+  background: #4E77AD;
+}
+
+
 
 .container {
   position: relative;
@@ -118,6 +122,7 @@ textarea.input {
 }
 
 .btn {
+  text-decoration: none;
   padding: 0.6rem 1.3rem;
   background-color: #fff;
   border: 2px solid #fafafa;
@@ -130,11 +135,15 @@ textarea.input {
   transition: 0.3s;
   margin: 0;
 }
+.btn a {
+  text-decoration: none;
+}
 
 .btn:hover {
   background-color: transparent;
   color: #fff;
 }
+
 
 .input-container span {
   position: absolute;

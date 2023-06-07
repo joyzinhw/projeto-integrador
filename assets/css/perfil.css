@@ -20,17 +20,13 @@ body {
 	font-size: 20px;
 	padding-left: 17px;
 }
-.u-name b {
-	color: #127b8e;
-}
+
 .header i {
 	font-size: 30px;
 	cursor: pointer;
 	color: #fff;
 }
-.header i:hover {
-	color: #127b8e;
-}
+
 .user-p {
 	text-align: center;
 	padding-left: 10px;
