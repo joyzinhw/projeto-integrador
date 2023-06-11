@@ -7,6 +7,7 @@
     font-family: 'Inter', sans-serif;
 }
 
+
 body{
   display: flex;
   align-items: center;
@@ -14,6 +15,7 @@ body{
   min-height: 100vh;
   background: #4E77AD; 
 }
+
 
 .container{
   height: 260px;
@@ -84,4 +86,46 @@ header h1{
   opacity: 1;
   pointer-events: auto;
   transition: opacity 0.5s 0.05s ease;
+}
+
+
+
+.footer {  /* menu */
+  position: absolute;
+  height: 80px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  background-color: transparent;
+  text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.6rem 1.3rem;
+  background-color: #fff;
+  border: 2px solid #fafafa;
+  font-size: 0.95rem;
+  color: #4E77AD;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+ 
+  text-align: center;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+}
+.btn a {
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #fff;
 }
