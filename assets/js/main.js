@@ -25,6 +25,22 @@ panel.setAttribute('aria-expanded', isExpanded);
 });
 });
 
+// validacao adm login teste
+
+function Logar(){
+
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+
+    if(email == "joyce@gmail.com" && password == "1234"){
+        alert('Sucesso');
+        location.href = "/pages/profile.html";
+    }else{
+        alert('Usuario ou senha incorretos');
+    }
+
+}
+
 
 // Obtém os elementos do perfil
 var profileInfo = document.getElementById("profileInfo");
