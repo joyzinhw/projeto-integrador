@@ -32,7 +32,7 @@ function Logar(){
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
 
-    if(email == "joyce@gmail.com" && password == "1234"){
+    if(email == "joyce@gmail.com" && password == "01234567"){
         alert('Sucesso');
         location.href = "/pages/profile.html";
     }else{
