@@ -139,6 +139,7 @@ outline: 1px solid #5950ff;
 	text-transform: uppercase;
 	font-weight: bold;
 	cursor: pointer;
+    color: #ffffff;
 }
 
 p{
@@ -199,50 +200,7 @@ nav .menu-btn i{
     display: none;
 }
 
-.rodape {
-    position: fixed;
-    display: inline-flex;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
-
-.rodape a {
-    display: inline-flex;
-    width: 50px;
-    height: 50px;
-    background-color: transparent;
-    color: #ffffff;
-    margin: 0.6px;
-    border-radius: 50px;
-    justify-content: center;
-    align-items: center;
-    transition: 0.2s;
-    font-size: 30px;
-}
-
-.rodape a:hover {
-    width: 180px;
-    background-color: transparent;
-    color: transparent;
-}
-
-.rodape a i {
-    transition: 00.3s all;
-}
-
-.rodape a:hover > i {
-    transform: scale(0) rotate(360deg);
-}
-
-.rodape :hover h3 {
-    font-size: 0.7em !important;
-    text-align: center;
-    margin-right: 18px;
-    transition: 0.1s;
-    transition-delay: 0.1s;
-}
 
 @media (max-width: 620px) {
     nav .menu-btn i{
